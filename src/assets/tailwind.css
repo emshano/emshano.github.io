@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Galyon-Bold";
+  src: url("./fonts/Galyon-Bold.woff2");
+}
+@font-face {
+  font-family: "Galyon-Regular";
+  src: url("./fonts/Galyon-Regular.woff2");
+}
+@font-face {
+  font-family: "Galyon-Italic";
+  src: url("./fonts/Galyon-Italic.woff2");
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  font-family: "Galyon-Regular";
+}
+
+h1, .bold{
+  font-family: "Galyon-Bold";
+  letter-spacing: -0.025em;
+}
+
+.icon{
+  fill: #692657
+}
+.st0 {
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+  }
+  
+  .st1 {
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  
+  .st2 {
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+
+  .face{
+    opacity: 0;
+  }
