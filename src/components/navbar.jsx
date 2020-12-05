@@ -62,7 +62,7 @@ export default class Nav extends Component {
               </a>
             </div>
             <div className="w-6 md:w-8 md:mt-3 mr-4 lg:w-10 mt-4 -ml-1 lg:ml-0">
-              <a href="emira_hajj.pdf">
+              <a href="https://emirahajj.github.io/emira_hajj.pdf" target="black">
                 <svg
                   class="icon hover:text-white"
                   id="Capa_1"
