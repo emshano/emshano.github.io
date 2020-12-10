@@ -29,7 +29,7 @@ const projects = [
   }   , {
     title: 'AR Filters',
     img: chess,
-    description: "Some AR filters I designed for Instagram using Facebook's Spark AR Studio with over 100K impressions to date.",
+    description: "Some AR filters I designed for Instagram using Spark AR Studio. Photos coming soon.",
         lang: arhub
   }
 ]
