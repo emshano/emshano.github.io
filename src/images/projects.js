@@ -21,7 +21,7 @@ const projects = [
         lang: sw
   }
   , {
-    title: 'Baby Chess',
+    title: 'Bb Chess',
     img: chess,
     description: 'A simple command line chess game written in C++. First player to reach other end of the board' +
         ' wins.',
