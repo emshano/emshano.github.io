@@ -1,5 +1,5 @@
 import Nav from "./components/navbar";
-import projects from "./images/projects"
+import projects from "./projects"
 import Mac from "./components/mac"
 import About from "./components/about"
 import Card from "./components/card"
@@ -12,7 +12,9 @@ function createCard(project) {
     title={project.title}
     description={project.description}
     img={project.img}
-    lang={project.lang}/>);
+    lang={project.lang}
+    link={project.link}
+    />);
 }
 
 export default class App extends Component {
@@ -97,8 +99,8 @@ export default class App extends Component {
 
           </div>
 
-          <div className="h-10">
-            <p className="text-gray-600 mt-1 text-xl text-center">© Emira Hajj 2020</p>
+          <div className="h-10 flex justify-center">
+            <a href="https://github.com/emirahajj/emirahajj.github.io" className="text-gray-600 mt-1 text-xl hover:text-gray-100 tracking-tighter">Designed & Built by Emira Hajj</a>
           </div>
 
         </div>
