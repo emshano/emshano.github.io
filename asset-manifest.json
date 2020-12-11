@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b655f53b.chunk.css",
-    "main.js": "/static/js/main.96f07ec0.chunk.js",
-    "main.js.map": "/static/js/main.96f07ec0.chunk.js.map",
+    "main.css": "/static/css/main.12797265.chunk.css",
+    "main.js": "/static/js/main.138c89f6.chunk.js",
+    "main.js.map": "/static/js/main.138c89f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f1cc0f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.4f1cc0f9.js.map",
     "static/js/2.9c1fad98.chunk.js": "/static/js/2.9c1fad98.chunk.js",
     "static/js/2.9c1fad98.chunk.js.map": "/static/js/2.9c1fad98.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b655f53b.chunk.css.map": "/static/css/main.b655f53b.chunk.css.map",
+    "static/css/main.12797265.chunk.css.map": "/static/css/main.12797265.chunk.css.map",
     "static/js/2.9c1fad98.chunk.js.LICENSE.txt": "/static/js/2.9c1fad98.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/Galyon-Regular.756caa96.woff2",
     "static/media/arhub.628e9a8f.svg": "/static/media/arhub.628e9a8f.svg",
-    "static/media/bbchess.aa75026f.png": "/static/media/bbchess.aa75026f.png",
+    "static/media/bbchess.4bfe0819.png": "/static/media/bbchess.4bfe0819.png",
     "static/media/c++.2441702d.svg": "/static/media/c++.2441702d.svg",
     "static/media/earworm.305a3915.png": "/static/media/earworm.305a3915.png",
     "static/media/emira.9ff69cdd.jpg": "/static/media/emira.9ff69cdd.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f1cc0f9.js",
     "static/js/2.9c1fad98.chunk.js",
-    "static/css/main.b655f53b.chunk.css",
-    "static/js/main.96f07ec0.chunk.js"
+    "static/css/main.12797265.chunk.css",
+    "static/js/main.138c89f6.chunk.js"
   ]
 }
