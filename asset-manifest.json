@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.12797265.chunk.css",
-    "main.js": "/static/js/main.138c89f6.chunk.js",
-    "main.js.map": "/static/js/main.138c89f6.chunk.js.map",
+    "main.js": "/static/js/main.cb105ecd.chunk.js",
+    "main.js.map": "/static/js/main.cb105ecd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f1cc0f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.4f1cc0f9.js.map",
     "static/js/2.9c1fad98.chunk.js": "/static/js/2.9c1fad98.chunk.js",
@@ -14,16 +14,17 @@
     "static/media/arhub.628e9a8f.svg": "/static/media/arhub.628e9a8f.svg",
     "static/media/bbchess.4bfe0819.png": "/static/media/bbchess.4bfe0819.png",
     "static/media/c++.2441702d.svg": "/static/media/c++.2441702d.svg",
-    "static/media/earworm.305a3915.png": "/static/media/earworm.305a3915.png",
+    "static/media/ear.2e91ef79.png": "/static/media/ear.2e91ef79.png",
     "static/media/emira.9ff69cdd.jpg": "/static/media/emira.9ff69cdd.jpg",
     "static/media/flixter.f5de8746.png": "/static/media/flixter.f5de8746.png",
     "static/media/react.a18dce4a.svg": "/static/media/react.a18dce4a.svg",
-    "static/media/swift.74a3177f.svg": "/static/media/swift.74a3177f.svg"
+    "static/media/swift.74a3177f.svg": "/static/media/swift.74a3177f.svg",
+    "static/media/type.e8f28779.png": "/static/media/type.e8f28779.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4f1cc0f9.js",
     "static/js/2.9c1fad98.chunk.js",
     "static/css/main.12797265.chunk.css",
-    "static/js/main.138c89f6.chunk.js"
+    "static/js/main.cb105ecd.chunk.js"
   ]
 }
