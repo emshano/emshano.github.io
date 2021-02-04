@@ -1,17 +1,18 @@
-import earworm from "./images/earworm.png"
+import earworm from "./images/ear.png"
 import chess from "./images/bbchess.png"
 import flix from "./images/flixter.png"
 import cpp from "./images/c++.svg"
 import ract from "./images/react.svg"
 import arhub from "./images/arhub.svg"
 import sw from "./images/swift.svg"
+import typer from "./images/type.png"
 
 const projects = [
   {
     title: 'Earworm',
     img: earworm,
-    description: 'Using Python to scrape the Billboard End of Year 200 Charts, Earworm displays ' +
-        'charts from 1970-2020 with genre analysis.',
+    description: 'Earworm compiles the Billboard 200 Year End charts ' +
+        'from 1970-2020 with genre analysis.',
     lang: ract,
     link: '#'
   }, {
@@ -26,17 +27,17 @@ const projects = [
   , {
     title: 'Bb Chess',
     img: chess,
-    description: 'A simple command line chess game written in C++. First player to reach other end of the board' +
+    description: 'A small command line chess game written in C++. First player to reach other end of the board' +
         ' wins.',
         lang: cpp,
         link: 'https://github.com/emirahajj/bb_chess'
 
   }   , {
-    title: 'AR Filters',
-    img: chess,
-    description: "Some AR filters I designed for Instagram using Spark AR Studio. Photos coming soon.",
-        lang: arhub,
-        link: '#'
+    title: 'butterfingers',
+    img: typer,
+    description: "No frills type test that measures WPM and accuracy. Built with ReactJS",
+        lang: ract,
+        link: 'https://github.com/emirahajj/butterfingers'
 
   }
 ]

@@ -18,7 +18,7 @@ export default class Card extends Component {
           <img class=" w-full h-full" src={this.props.img} alt="Sunset in the mountains"/>
           <div class="px-6 py-4">
             <div className="flex flex-row self-center justify-between mb-2">
-                <h1 className="tight text-gray-200 text-3xl">{this.props.title}</h1>
+                <h1 className="text-gray-200 text-3xl">{this.props.title}</h1>
                 <div className="ml-2 self-center">
                 <a href={this.props.link}>
                 <Button/>

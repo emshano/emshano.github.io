@@ -20,7 +20,7 @@ function createCard(project) {
 export default class App extends Component {
 
   animation() {
-    const mine = anime({
+    anime({
       targets: ".backy",
       d: [
         {value:
@@ -39,7 +39,6 @@ export default class App extends Component {
 
   componentDidMount() {
     this.animation();
-    console.log(window.innerWidth);
   }
   render() {
     return (

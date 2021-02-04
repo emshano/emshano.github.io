@@ -86,14 +86,6 @@ export default class Mac extends Component {
   }
 
   render() {
-
-    //finaloffset = (this.state.divw/2 );
-    console.log("window size: ", window.innerWidth);
-    console.log("divsize: ", this.state.divw);
-    console.log("svgsize", this.state.macw);
-
-    //console.log("final offset: ", finaloffset);
-
     return (
       <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen">
 
