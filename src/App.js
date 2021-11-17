@@ -47,6 +47,7 @@ export default class App extends Component {
 
         <div className="fixed w-extra-wide md:w-xx-wide lg:w-full">
           <svg
+          className="backy"
             version="1.1"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
