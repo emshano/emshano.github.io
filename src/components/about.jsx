@@ -23,7 +23,7 @@ export default function about() {
 
       <div className="md:hidden max-w-xs mt-3">
         <p class="text-center bold text-purp2 text-2xl leading-6">
-          My name is Emira. I'm a computer science student at CUNY - Hunter
+          My name is Emira. I'm a computer science grad from CUNY - Hunter
           College. When I'm not programming, I like to make music, vector art, and AR
           filters for Instagram.
         </p>

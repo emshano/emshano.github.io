@@ -7,15 +7,15 @@ export default class Card extends Component {
   render() {
     return (
       <div
-        className="projjy relative mt-12 justify-self-center mb-12 max-w-xs md:max-w-sm">
+        className="projjy relative mt-12 justify-self-center mb-12">
         <div className="relative z-10">
           <img
-            className="w-20 h-20 -mt-10 -ml-10 absolute inline-block"
+            className="w-20 h-20 -mt-10 -ml-10 absolute inline-block lang "
             src={this.props.lang}
             alt="Language or framework logo"/>
         </div>
-        <div class="bg-accent2 rounded-2xl overflow-hidden shadow-lg">
-          <img class=" w-full h-full" src={this.props.img} alt="Sunset in the mountains"/>
+        <div class="bg-accent2 flex flex-row rounded-2xl shadow-lg max-w-4xl">
+          <img class="w-72 h-72" src={this.props.img} alt="Sunset in the mountains"/>
           <div class="px-6 py-4">
             <div className="flex flex-row self-center justify-between mb-2">
                 <h1 className="text-gray-200 text-3xl">{this.props.title}</h1>
