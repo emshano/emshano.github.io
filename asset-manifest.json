@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.12797265.chunk.css",
-    "main.js": "/static/js/main.cb105ecd.chunk.js",
-    "main.js.map": "/static/js/main.cb105ecd.chunk.js.map",
+    "main.css": "/static/css/main.960b95c4.chunk.css",
+    "main.js": "/static/js/main.6e35f127.chunk.js",
+    "main.js.map": "/static/js/main.6e35f127.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4f1cc0f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.4f1cc0f9.js.map",
     "static/js/2.9c1fad98.chunk.js": "/static/js/2.9c1fad98.chunk.js",
     "static/js/2.9c1fad98.chunk.js.map": "/static/js/2.9c1fad98.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.12797265.chunk.css.map": "/static/css/main.12797265.chunk.css.map",
+    "static/css/main.960b95c4.chunk.css.map": "/static/css/main.960b95c4.chunk.css.map",
     "static/js/2.9c1fad98.chunk.js.LICENSE.txt": "/static/js/2.9c1fad98.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/Galyon-Regular.756caa96.woff2",
     "static/media/arhub.628e9a8f.svg": "/static/media/arhub.628e9a8f.svg",
     "static/media/bbchess.4bfe0819.png": "/static/media/bbchess.4bfe0819.png",
     "static/media/c++.2441702d.svg": "/static/media/c++.2441702d.svg",
-    "static/media/ear.2e91ef79.png": "/static/media/ear.2e91ef79.png",
+    "static/media/ear.34c992d6.png": "/static/media/ear.34c992d6.png",
     "static/media/emira.9ff69cdd.jpg": "/static/media/emira.9ff69cdd.jpg",
     "static/media/flixter.f5de8746.png": "/static/media/flixter.f5de8746.png",
     "static/media/react.a18dce4a.svg": "/static/media/react.a18dce4a.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f1cc0f9.js",
     "static/js/2.9c1fad98.chunk.js",
-    "static/css/main.12797265.chunk.css",
-    "static/js/main.cb105ecd.chunk.js"
+    "static/css/main.960b95c4.chunk.css",
+    "static/js/main.6e35f127.chunk.js"
   ]
 }
