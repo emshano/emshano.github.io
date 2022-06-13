@@ -89,8 +89,7 @@ export default class App extends Component {
                 <h1 className="text-gray-100 relative z-10 text-4xl md:text-6xl text-center">Get in touch</h1>
                 <p
                   className="text-purp2 bold text-xl md:text-2xl mt-6 leading-tight text-center">
-                  I'm actively applying to full-time and internship SWE roles. Feel free to
-                  connect on LinkedIn or via email.
+                  Feel free to connect on LinkedIn or via email.
                 </p>
 
               </div>

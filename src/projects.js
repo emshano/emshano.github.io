@@ -14,7 +14,7 @@ const projects = [
     description: 'Earworm compiles the Billboard 200 Year End charts ' +
         'from 1970-2020 with genre analysis.',
     lang: ract,
-    link: '#'
+    link: 'https://github.com/emirahajj/earworm_'
   }, {
     title: 'Flixter',
     img: flix,

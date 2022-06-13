@@ -14,8 +14,7 @@ export default function about() {
             class='text-gray-100 -ml-12 text-6xl text-left leading-12 md:-ml-16 md:text-8xl'>Hello.</h1>
           <p
             class="hidden text-purp2 bold text-2xl leading-6 md:contents md:leading-none md:text-2xl md:mt-2 md:text-left">
-            My name is Emira. I'm a computer science student at CUNY - Hunter
-            College. When I'm not programming, I like to make music, vector art, and AR
+            My name is Emira. When I'm not programming, I like to make music, generative art with code, and AR
             filters for Instagram.
           </p>
         </div>
@@ -23,8 +22,6 @@ export default function about() {
 
       <div className="md:hidden max-w-xs mt-3">
         <p class="text-center bold text-purp2 text-2xl leading-6">
-          My name is Emira. I'm a computer science grad from CUNY - Hunter
-          College. When I'm not programming, I like to make music, vector art, and AR
           filters for Instagram.
         </p>
       </div>

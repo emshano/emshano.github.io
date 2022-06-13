@@ -16,7 +16,7 @@ export default class Nav extends Component {
           <div
             className='name-div text-purp2 py-2 px-3 items-center text-3xl md:text-4xl lg:hidden'>
             <div>
-              <h1>Emira Hajj</h1>
+              <h1>Emira Shano</h1>
             </div>
           </div>
           <div className="icon-div flex flex-row lg:flex-col-reverse lg:fixed lg:right-0">
@@ -35,7 +35,7 @@ export default class Nav extends Component {
               </a>
             </div>
             <div className="w-6 md:w-8 md:mt-3 mt-4 mr-4 lg:w-10">
-              <a href="https://www.linkedin.com/in/emirahajj/">
+              <a href="https://www.linkedin.com/in/emirashano/">
                 <svg
                   className="icon hover:text-white"
                   id="Layer_1"
@@ -48,7 +48,7 @@ export default class Nav extends Component {
               </a>
             </div>
             <div className="w-6 md:w-8 md:mt-3 mr-4 lg:w-10 mt-4 -ml-1 lg:ml-0">
-              <a href="mailto:emirahajj@gmail.com">
+              <a href="mailto:emira@eshano.com">
                 <svg
                   class="icon hover:text-white"
                   id="Capa_1"
