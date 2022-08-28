@@ -99,7 +99,7 @@ export default class App extends Component {
           </div>
 
           <div className="h-10 flex justify-center">
-            <a href="https://github.com/emirahajj/emirahajj.github.io" className="text-gray-600 mt-1 text-xl hover:text-gray-100 tracking-tighter">Designed & Built by Emira Hajj</a>
+            <a href="https://eshano.com" className="text-gray-600 mt-1 text-xl hover:text-gray-100 tracking-tighter">Designed & Built by Emira Shano</a>
           </div>
 
         </div>
