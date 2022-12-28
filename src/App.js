@@ -78,7 +78,7 @@ export default class App extends Component {
           <h1 className="text-gray-100 text-8xl text-center mb-24">Projects</h1>
           <div className="flex flex-col items-center">
             <div
-              className="flex flex-col items-center justify-around min-h-screen  gap-x-56 xl:gap-x-80 lg:max-w-screen-xl ">
+              className="flex flex-col items-center justify-around min-h-screen gap-x-56 xl:gap-x-80 lg:max-w-screen-xl ">
               {projects.map((project) => (createCard(project)))}
             </div>
           </div>

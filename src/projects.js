@@ -14,7 +14,7 @@ const projects = [
     description: 'Earworm compiles the Billboard 200 Year End charts ' +
         'from 1970-2020 with genre analysis.',
     lang: ract,
-    link: 'https://github.com/emirahajj/earworm_'
+    link: 'https://earwrm.io'
   }, {
     title: 'Flixter',
     img: flix,
@@ -22,7 +22,6 @@ const projects = [
         ' across the country.',
         lang: sw,
         link: 'https://github.com/emirahajj/flixter'
-
   }
   , {
     title: 'Bb Chess',
