@@ -1,25 +1,28 @@
-import React, {Component} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import anime from "animejs";
 
-export default class Mac extends Component {
-  constructor() {
-    super();
-    this.state = {
-      macw: '',
-      divw: '',
-      finaloffset: ''
-    };
-  }
+export default function Mac() {
 
-  componentDidMount() {
-    this.animation();
-    let div = this.divvy.offsetWidth;
-    let mac = this.maccy.offsetWidth;
-    let final = div / 2 + mac / 2;
-    this.setState({divw: div, macw: mac, finaloffset: final});
-  }
+  const divvy = useRef(null);
+  const maccy = useRef(null);
 
-  animation() {
+  const [macw, setmacw] = useState('');
+  const [divw, setdivw] = useState('');
+  const [finaloffset, setfinaloffset] = useState('');
+
+
+  useEffect(() => {
+    animation();
+    let div = divvy.current.offsetWidth;
+    let mac = maccy.current.offsetWidth;
+    let final = div/2 + mac / 2;
+    setdivw(div);
+    setfinaloffset(final);
+    setmacw(mac);
+  })
+
+
+  const animation = () => {
     const me = anime({
       targets: [
         '.st0', '.line', '.st2'
@@ -58,7 +61,7 @@ export default class Mac extends Component {
       targets: ".right",
       d: {
         value: "M69,38.9c-1.4,0-2.5-0.3-2.5-0.6v-2.2c0-0.3,1.1-0.6,2.5-0.6s2.5,0.3,2.5,0.6v2.2 C" +
-            "71.5,38.6,70.4,38.9,69,38.9z"
+          "71.5,38.6,70.4,38.9,69,38.9z"
       },
       duration: 45,
       direction: 'alternate',
@@ -73,7 +76,7 @@ export default class Mac extends Component {
       targets: ".left",
       d: {
         value: "M38.3,38.9c-1.4,0-2.5-0.3-2.5-0.6v-2.2c0-0.3,1.1-0.6,2.5-0.6s2.5,0.3,2.5,0.6v2.2" +
-            " C40.8,38.6,39.7,38.9,38.3,38.9z"
+          " C40.8,38.6,39.7,38.9,38.3,38.9z"
       },
       duration: 45,
       direction: 'alternate',
@@ -85,29 +88,15 @@ export default class Mac extends Component {
     });
   }
 
-  render() {
-    return (
-      <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen">
+  return (
+    <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen">
 
-      <div
-        class="flex biggy flex-col max-w-screen-xl md:flex-row  "
-        ref=
-        {divvy => {this.divvy = divvy}}
-        style={{
-        marginLeft: window.innerWidth > 768
-          ? this.state.finaloffset
-          : 0
-      }}>
-        <div
-          class="svg-container z-10 flex items-center justify-center"
-          ref=
-          {maccy => {this.maccy = maccy}}>
-
+      <div class="flex biggy flex-col max-w-screen-xl md:flex-row" ref={divvy} style={{ marginLeft: window.innerWidth > 768 ? finaloffset : 0 }}>
+        <div class="svg-container z-10 flex items-center justify-center" ref={maccy}>
           <svg
             class="mineline w-32 md:w-48"
             version="1.1"
             id="Layer_2_1_"
-            xmlns="http://www.w3.org/2000/svg"
             x="0px"
             y="0px"
             width="100%"
@@ -148,18 +137,17 @@ export default class Mac extends Component {
                   d="M16.3,25.1v50.5c0,4.2,3.4,7.7,7.7,7.7h59.3c4.2,0,7.7-3.4,7.7-7.7V25.1c0-4.2-3.4-7.7-7.7-7.7H24
                   C19.8,17.4,16.3,20.9,16.3,25.1z"/>
 
-                <path class="st1 line" d="M66.8,96.5h22H66.8z"/>
-                <path class="st1 line" d="M18.5,100.9h8.8H18.5z"/>
-
+                <path class="st1 line" d="M66.8,96.5h22H66.8z" />
+                <path class="st1 line" d="M18.5,100.9h8.8H18.5z" />
               </g>
 
               <g class="fill-current" id="eyes">
                 <path
                   class="st3 face left"
-                  d="M38.3,44.1c-1.4,0-2.5-1.1-2.5-2.5v-8.8c0-1.4,1.1-2.5,2.5-2.5s2.5,1.1,2.5,2.5v8.8C40.8,43,39.7,44.1,38.3,44.1z"/>
+                  d="M38.3,44.1c-1.4,0-2.5-1.1-2.5-2.5v-8.8c0-1.4,1.1-2.5,2.5-2.5s2.5,1.1,2.5,2.5v8.8C40.8,43,39.7,44.1,38.3,44.1z" />
                 <path
                   class="st3 face right"
-                  d="M69,44.1c-1.4,0-2.5-1.1-2.5-2.5v-8.8c0-1.4,1.1-2.5,2.5-2.5s2.5,1.1,2.5,2.5v8.8C71.5,43,70.4,44.1,69,44.1z"/>
+                  d="M69,44.1c-1.4,0-2.5-1.1-2.5-2.5v-8.8c0-1.4,1.1-2.5,2.5-2.5s2.5,1.1,2.5,2.5v8.8C71.5,43,70.4,44.1,69,44.1z" />
               </g>
 
               <g class="fill-current">
@@ -172,10 +160,8 @@ export default class Mac extends Component {
                   d="M42.7,65.7c0.7,0.7,4.4,4.6,10.5,4.8c6.6,0.2,10.8-4.1,11.4-4.8c-0.6,0.7-4.8,5-11.4,4.8
                   C47.1,70.4,43.4,66.5,42.7,65.7z"/>
               </g>
-
             </g>
           </svg>
-
         </div>
 
         <div class="texty flex z-10 flex-col opacity-0 w-96 justify-center mt-6 md:ml-8">
@@ -185,8 +171,8 @@ export default class Mac extends Component {
         </div>
 
       </div>
-      </div>
+    </div>
 
-    )
-  }
+  )
+
 }

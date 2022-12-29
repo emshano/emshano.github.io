@@ -1,5 +1,5 @@
 import React from "react";
-import emoji from "../images/emira.jpg"
+import emoji from "../images/emira.png"
 
 export default function about() {
   return (
@@ -11,7 +11,7 @@ export default function about() {
         </div>
         <div class="intro max-w-sm md:ml-6 lg:mt-6">
           <h1
-            class='text-gray-100 -ml-12 text-6xl text-left leading-12 md:-ml-16 md:text-8xl'>Hello.</h1>
+            class='text-gray-100 -ml-12 text-6xl text-left leading-12 md:-ml-16 md:text-8xl'>Hello!</h1>
           <p
             class="hidden text-purp2 bold text-2xl leading-6 sm:contents md:leading-none md:text-2xl md:mt-2 md:text-left">
             My name is Emira. When I'm not programming, I like to make music, generative art with code, and AR filters for Instagram.
