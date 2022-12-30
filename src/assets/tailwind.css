@@ -2,63 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
 @font-face {
   font-family: "Galyon-Bold";
   src: url("./fonts/Galyon-Bold.woff2");
 }
+
 @font-face {
   font-family: "Galyon-Regular";
   src: url("./fonts/Galyon-Regular.woff2");
 }
+
 @font-face {
   font-family: "Galyon-Italic";
   src: url("./fonts/Galyon-Italic.woff2");
 }
 
-*{
+html,
+body {
   margin: 0px;
   padding: 0px;
+  font-family: "IBM Plex Mono";
 }
-p, a{
-  font-family: "Galyon-Regular";
+#contentLayer{
+  min-height: 100svh;
+}
+h1,
+.bold {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: -.095rem;
 }
 
-h1, .bold{
-  font-family: "Galyon-Bold";
-  letter-spacing: -0.025em;
-}
-.lang{
+.lang {
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
-.icon{
+
+.icon {
   fill: #692657;
 }
-.icon:hover{
+
+.icon:hover {
   fill: white;
 }
+
 .st0 {
-    stroke-width: 5;
-    stroke-miterlimit: 10;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
 
-  }
-  .projjy{
-    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
 
-  }
-  .st1 {
-    stroke-width: 5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
-  }
-  
-  .st2 {
-    stroke-width: 5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
-  }
+.projjy {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 
-  .face{
-    opacity: 0;
-  }
+}
+
+.st1 {
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.face {
+  opacity: 0;
+}

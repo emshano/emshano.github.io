@@ -1,12 +1,14 @@
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
+  content: ["./src/**/*.{js, jsx}", "./public/index.html"],
   theme: {
     extend: {
       screens: {
         'xs': '480px',
       },
       colors: {
-            main: "#333950",	/* Main Primary color */
+            main: "#333950",  /* Main Primary color */
             accent1: "#8086A0", 
             accent2:  "#4B526E", 
             accent3: "#202743", 
@@ -33,6 +35,5 @@ module.exports = {
       }    
     },
   },
-  variants: {},
   plugins: [],
 }

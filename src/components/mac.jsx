@@ -89,10 +89,10 @@ export default function Mac() {
   }
 
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen">
+    <div className="grid grid-cols-1 grid-rows-2 justify-center items-center w-full min-h-screen">
 
-      <div class="flex biggy flex-col max-w-screen-xl md:flex-row" ref={divvy} style={{ marginLeft: window.innerWidth > 768 ? finaloffset : 0 }}>
-        <div class="svg-container z-10 flex items-center justify-center" ref={maccy}>
+      <div class="flex biggy flex-col md:flex-row bg-black" ref={divvy} style={{ marginLeft: window.innerWidth > 768 ? finaloffset : 0 }}>
+        <div class="svg-container z-10" ref={maccy}>
           <svg
             class="mineline w-32 md:w-48"
             version="1.1"
@@ -164,13 +164,19 @@ export default function Mac() {
           </svg>
         </div>
 
-        <div class="texty flex z-10 flex-col opacity-0 w-96 justify-center mt-6 md:ml-8">
-          <h1
-            class="text-gray-100 text-center md:text-left text-7xl leading-14">I'm Emira,</h1>
-          <p class=" text-purp2 bold text-center md:text-left text-3xl">web and software developer.</p>
+        <div class="texty flex z-10 flex-col opacity-0 justify-center mt-6 md:ml-8">
+          <h1 class="text-gray-100 text-center md:text-left text-7xl leading-14">Emira Shano</h1>
+          <a href="https://github.com/emirahajj" class="text-purp2 bold text-center md:text-left text-3xl hover:text-white">Github</a>
+          <a href="https://www.linkedin.com/in/emirashano/" class="text-purp2 bold text-center md:text-left text-3xl hover:text-white">LinkedIn</a>
+          <a href="mailto:emira@eshano.com" class="text-purp2 bold text-center md:text-left text-3xl hover:text-white">Contact Me</a>
         </div>
+        
 
       </div>
+      <div className="self-end">
+        <p className="text-gray-600 mt-1 text-xl text-center hover:text-gray-100 tracking-tighter">Designed & Built by Emira Shano</p>
+      </div>
+      
     </div>
 
   )
