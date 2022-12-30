@@ -488,9 +488,6 @@ video {
 .-ml-1 {
   margin-left: -0.25rem;
 }
-.mt-2 {
-  margin-top: 0.5rem;
-}
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -499,9 +496,6 @@ video {
 }
 .grid {
   display: grid;
-}
-.min-h-screen {
-  min-height: 100vh;
 }
 .w-extra-wide {
   width: 400%;
@@ -532,6 +526,9 @@ video {
 }
 .justify-center {
   justify-content: center;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .gap-3 {
   gap: 0.75rem;
@@ -606,7 +603,7 @@ body {
   font-family: "IBM Plex Mono";
 }
 #contentLayer{
-  max-height: -webkit-fill-available;
+  min-height: 100svh;
 }
 h1,
 .bold {
@@ -615,6 +612,9 @@ h1,
   letter-spacing: -.095rem;
 }
 
+h2 {
+  font-size: 20px;
+}
 .lang {
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }

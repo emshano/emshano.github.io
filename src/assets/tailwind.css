@@ -35,6 +35,9 @@ h1,
   letter-spacing: -.095rem;
 }
 
+h2 {
+  font-size: 20px;
+}
 .lang {
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
