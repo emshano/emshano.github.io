@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @font-face {
   font-family: "Galyon-Bold";
   src: url("./fonts/Galyon-Bold.woff2");
@@ -23,7 +22,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "IBM Plex Mono";
+  font-family: "Poppins";
 }
 
 .contentLayer{
@@ -33,7 +32,7 @@ h1,
 .bold {
   margin: 0px;
   padding: 0px;
-  letter-spacing: -.095rem;
+  letter-spacing: -.075rem;
 }
 
 h2 {
@@ -54,11 +53,6 @@ h2 {
 .st0 {
   stroke-width: 5;
   stroke-miterlimit: 10;
-
-}
-
-.projjy {
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 
 }
 

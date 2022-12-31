@@ -1,9 +1,11 @@
 import Home from "./Home";
-import Teaching from "./Teaching";
+import About from "./components/About";
 import React from "react";
 import '../src/assets/tailwind.css'
 import { Routes, Route } from "react-router-dom";
 import Background from "./Background";
+import Projectss from "./Projectss";
+import Nav from "./components/Nav";
 
 export default function App() {
   return(
@@ -11,7 +13,7 @@ export default function App() {
       <Background/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/teaching" element={<Teaching/>}/>
+        <Route path="/projects" element={<Projectss/>}/>
       </Routes>
     </div>
   )

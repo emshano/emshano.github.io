@@ -2,20 +2,16 @@ import React, {Component, useEffect} from "react";
 import anime from "animejs";
 
 export default function Nav() {
-
-  useEffect(()=> {
-    anime({targets: ['.full-navbar-div'], opacity: 1, duration: 300, easing: 'linear', delay: 3600});
-  });
     return (
-      <div className="full-navbar-div opacity-0 fixed z-30 w-full">
-        <div className="flex bg-purp top-0 lg:bg-main justify-between">
-          <div className='name-div text-purp2 py-2 px-3 items-center text-3xl md:text-4xl lg:hidden'>
+      <div className="full-navbar-div fixed z-30 w-full p-3 bg-purp mb-12">
+        <div className="flex  top-0  justify-between items-center">
+          <div className='name-div text-purp2 items-center text-3xl md:text-4xl font-extrabold'>
             <div>
               <h1>Emira Shano</h1>
             </div>
           </div>
-          <div className="icon-div flex flex-row lg:flex-col lg:fixed lg:right-0">
-            <div className="w-6 md:w-8 md:mt-3 mt-4 lg:w-10 mr-4">
+          <div className="icon-div flex flex-row place-items-center gap-3">
+            <div className="w-6 md:w-8 lg:w-10">
               <a href="https://github.com/emirahajj" className="icon">
                 <svg
                   id="Layer_1"
@@ -27,7 +23,7 @@ export default function Nav() {
                 </svg>
               </a>
             </div>
-            <div className="w-6 md:w-8 md:mt-3 mt-4 mr-4 lg:w-10">
+            <div className="w-6 md:w-8 lg:w-10">
               <a href="https://www.linkedin.com/in/emirashano/" className="icon">
                 <svg
                   id="Layer_1"
@@ -38,7 +34,7 @@ export default function Nav() {
                 </svg>
               </a>
             </div>
-            <div className="w-6 md:w-8 md:mt-3 mr-4 lg:w-10 mt-4 -ml-1 lg:ml-0">
+            <div className="w-6 md:w-8 lg:w-10">
               <a href="mailto:emira@eshano.com" className="icon">
                 <svg
                   id="Layer_1"
