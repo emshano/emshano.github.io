@@ -4,9 +4,17 @@ import Card from "./Card.js";
 
 const Projects = () => {
     return (
-        <div className="contentLayer relative flex flex-col items-center justify-around min-h-screen gap-x-56 xl:gap-x-80 w-full">
-            <h1 className="text-6xl mt-24 font-bold text-white">Projects</h1>
-            {projectList.map((project, i)=> <Card key={i} title={project.title} description={project.description} img={project.img} lang={project.lang} link={project.link} />)}
+        <div className="flex flex-col h-full">
+            <h1 className="mt-36 mb-36 text-5xl bg-yellow-300 h-24 tracking-tighter">emira shano</h1>
+            <div className="flex flex-col h-full justify-between">
+                <div className="links flex flex-col ml-2 items-start">
+                    {projectList.map((project, i) => <Card key={i} title={project.title} description={project.description} img={project.img} link={project.link} />)}
+                </div>
+
+                <div className="image flex flex-row justify-end">
+                    <img className="w-12" src="" alt="" />
+                </div>
+            </div>
         </div>
     )
 }
