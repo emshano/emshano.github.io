@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1112e6ca.css",
-    "main.js": "/static/js/main.daeccdb0.js",
+    "main.css": "/static/css/main.58ff6aee.css",
+    "main.js": "/static/js/main.9cccdc46.js",
     "static/media/ear.png": "/static/media/ear.34c992d6a05b1ab0b998.png",
     "static/media/flixter.png": "/static/media/flixter.f5de8746042d63491ab4.png",
     "static/media/type.png": "/static/media/type.e8f28779d7a5d676bc95.png",
     "static/media/bbchess.png": "/static/media/bbchess.4bfe0819649ada940047.png",
-    "static/media/Galyon-Italic.woff2": "/static/media/Galyon-Italic.1ddfa2f8e64006ceb6e7.woff2",
-    "static/media/Galyon-Regular.woff2": "/static/media/Galyon-Regular.756caa963c1f7b540605.woff2",
-    "static/media/Galyon-Bold.woff2": "/static/media/Galyon-Bold.2a84e0d3363976f20b13.woff2",
     "static/media/react.svg": "/static/media/react.a18dce4ab0eca0ceee0b54b4f40d6b01.svg",
     "static/media/c++.svg": "/static/media/c++.2441702dffa95ca3c92c20816e386640.svg",
     "static/media/swift.svg": "/static/media/swift.74a3177fccd676b68e666e4ac8ad5aae.svg",
     "index.html": "/index.html",
-    "main.1112e6ca.css.map": "/static/css/main.1112e6ca.css.map",
-    "main.daeccdb0.js.map": "/static/js/main.daeccdb0.js.map"
+    "main.58ff6aee.css.map": "/static/css/main.58ff6aee.css.map",
+    "main.9cccdc46.js.map": "/static/js/main.9cccdc46.js.map"
   },
   "entrypoints": [
-    "static/css/main.1112e6ca.css",
-    "static/js/main.daeccdb0.js"
+    "static/css/main.58ff6aee.css",
+    "static/js/main.9cccdc46.js"
   ]
 }
