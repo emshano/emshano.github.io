@@ -1,10 +1,15 @@
 import React from "react";
+import Banner from "./Banner";
 
-const Tutoring = () => {
+
+const Tutoring = ({ color }) => {
     return (
-        <div className="contentLayer relative flex flex-col items-center justify-around min-h-screen gap-x-56 xl:gap-x-80 w-full">
-            <h1 className="text-6xl mt-24 font-bold text-white">Tutoring</h1>
-            <p>Coming soon...</p>
+        <div className="flex flex-col h-full ">
+            <Banner color={color} />
+            <h2 className="text-6xl ml-2 mb-3">tutoring</h2>
+            <div className="links flex flex-col ml-2 items-start text-4xl">
+                <p>Coming soon...</p>
+            </div>
         </div>
     )
 }

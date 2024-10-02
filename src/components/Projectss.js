@@ -1,12 +1,17 @@
 import React from "react";
 import projectList from "../projectList";
 import Card from "./Card.js";
+import Banner from "./Banner.js";
 
-const Projects = () => {
+
+const Projects = ({color}) => {
     return (
-        <div className="contentLayer relative flex flex-col items-center justify-around min-h-screen gap-x-56 xl:gap-x-80 w-full">
-            <h1 className="text-6xl mt-24 font-bold text-white">Projects</h1>
-            {projectList.map((project, i)=> <Card key={i} title={project.title} description={project.description} img={project.img} lang={project.lang} link={project.link} />)}
+        <div className="flex flex-col h-full ">
+            <Banner color={color}/>
+            <h2 className="text-6xl ml-2 mb-3">projects</h2>
+            <div className="links flex flex-col items-start text-4xl">
+                {projectList.map((project, i) => <Card key={i} color={color} title={project.title} description={project.description} img={project.img} link={project.link} />)}
+            </div>
         </div>
     )
 }
