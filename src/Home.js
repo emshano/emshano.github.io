@@ -11,7 +11,7 @@ const Home = ({ color }) => {
                 <a href="/projects">→ projects</a>
                 <a href="/tutoring">→ tutoring</a>
                 <a href="mailto:emira@eshano.com">→ contact</a>
-                <a href="">→ linkedIn</a>
+                <a href="https://www.linkedin.com/in/emirashano/">→ linkedIn</a>
             </div>
         </div>
     )
