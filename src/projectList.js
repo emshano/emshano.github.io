@@ -8,32 +8,28 @@ import typer from "./images/type.png"
 
 const projectList = [
   {
-    title: 'Earworm',
-    img: earworm,
+    title: 'earworm',
     description: 'Compiles the Billboard 200 Year End charts ' +
         'from 1970-2020 with genre analysis.',
     lang: ract,
     link: 'https://earwrm.io'
   }, {
-    title: 'Flixter',
-    img: flix,
+    title: 'flixter',
     description: 'Displays the currently playing movies across the country. Uses the MovieDB API.',
         lang: sw,
-        link: 'https://github.com/emirahajj/flixter'
+        link: 'https://github.com/emshano/flixter'
   }
   , {
-    title: 'Bb Chess',
-    img: chess,
+    title: 'bb chess',
     description: 'A simplified commandline chess game written in C++.',
         lang: cpp,
-        link: 'https://github.com/emirahajj/bb_chess'
+        link: 'https://github.com/emshano/bb_chess'
 
   }   , {
     title: 'butterfingers',
-    img: typer,
     description: "No frills type test that measures WPM and accuracy. Built with ReactJS",
         lang: ract,
-        link: 'https://github.com/emirahajj/butterfingers'
+        link: 'https://github.com/emshano/butterfingers'
 
   }
 ]
