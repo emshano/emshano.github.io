@@ -5,7 +5,7 @@ import { Routes, Route} from "react-router-dom";
 import Projectss from "./components/Projectss";
 import Tutoring from './components/Tutoring';
 
-const colorDict = ["bg-red-600", "bg-orange-500", "bg-amber-300", "bg-lime-600","bg-teal-600", "bg-cyan-500", "bg-blue-600", "bg-violet-500", "bg-fuchsia-700", "bg-pink-600" ];
+const colorDict = ["bg-red-400", "bg-orange-500", "bg-amber-300", "bg-lime-600","bg-teal-600", "bg-cyan-500", "bg-blue-400", "bg-violet-300", "bg-fuchsia-500", "bg-pink-400" ];
 
 const App = () => {
   const [appColor, setAppColor] = useState(colorDict[Math.floor(Math.random() * 10)]);

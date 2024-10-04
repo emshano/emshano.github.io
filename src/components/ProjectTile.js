@@ -1,6 +1,4 @@
-import React from "react";
-
-const Card = ({lang, img, title, link, description, color}) => {
+const ProjectTile = ({lang, img, title, link, description, color}) => {
   return (
     <div className="m-4">
           <a className={`proj_link pr-2 ${color}`} href={link}>{`→ ${title}`}</a>
@@ -8,4 +6,4 @@ const Card = ({lang, img, title, link, description, color}) => {
     </div>
   );
 }
-export default Card;
+export default ProjectTile;

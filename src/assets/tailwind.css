@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 html,
 body {
   margin: 0px;
@@ -11,17 +10,10 @@ body {
   letter-spacing: -0.09em;
 }
 
-#root{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
 .proj_link {
   box-shadow: 5px -5px black;
 }
 
 h1, h2{
-  letter-spacing: -0.08em;
+  letter-spacing: -0.05em;
 }
