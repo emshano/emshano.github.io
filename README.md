@@ -4,7 +4,7 @@
   The third iteration of my personal site <a href="https://eshano.com" target="_blank">eshano.com</a>, built with <a href="https://github.com/facebook/react/" target="_blank">React</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
 </p>
 
-![Screen cap of Emira's personal site](https://i.imgur.com/pOz1RIP.png)
+![Screen cap of Emira's personal site](https://i.imgur.com/GFw7mMR.png)
 
 # Installation + Set Up
 
