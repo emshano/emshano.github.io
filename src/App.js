@@ -1,7 +1,7 @@
 import '../src/assets/tailwind.css'
 import Home from "./Home";
 import React, { useState } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Projectss from "./components/Projectss";
 import Tutoring from './components/Tutoring';
 
