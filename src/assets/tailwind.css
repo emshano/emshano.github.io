@@ -25,7 +25,3 @@ body {
 h1, h2{
   letter-spacing: -0.08em;
 }
-
-img{
-  image-rendering: pixelated;
-}

@@ -7,7 +7,5 @@ const Card = ({lang, img, title, link, description, color}) => {
           <p className="text-gray-400 italic text-2xl">{description}</p>
     </div>
   );
-
-
 }
 export default Card;
