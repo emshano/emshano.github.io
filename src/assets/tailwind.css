@@ -7,13 +7,8 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Fragment Mono", monospace;
-  letter-spacing: -0.09em;
 }
 
 .proj_link {
   box-shadow: 5px -5px black;
-}
-
-h1, h2{
-  letter-spacing: -0.05em;
 }
